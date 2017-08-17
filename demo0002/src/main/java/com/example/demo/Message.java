@@ -18,4 +18,16 @@ public class Message {
 	public String getContent() {
 		return this.content;
 	}
+	
+	public void setFrom(String value) {
+		this.from = value;
+	}
+	
+	public void setTo(String value) {
+		this.to = value;
+	}
+	
+	public void setContent(String value) {
+		this.content = value;
+	}
 }
